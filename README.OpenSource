@@ -1,0 +1,11 @@
+[
+    {
+        "Name": "react-native-appearance",
+        "License": "MIT License",
+        "License File": "https://github.com/expo/react-native-appearance/blob/master/LICENSE",
+        "Version Number": "0.3.5",
+        "Owner": "xiafeng@huawei.com",
+        "Upstream URL": "https://github.com/expo/react-native-appearance",
+        "Description": "Polyfill for `Appearance` API which will be available in `react-native@0.62`."
+    }
+]
