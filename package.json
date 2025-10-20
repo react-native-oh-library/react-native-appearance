@@ -21,7 +21,6 @@
   "homepage": "https://github.com/react-native-oh-library/react-native-appearance#readme",
   "license": "MIT",
   "scripts": {
-    "prepare": "bob build",
     "start": "react-native start",
     "start:web": "expo start --web --config example/app.json",
     "test": "yarn validate:prettier && yarn validate:eslint && yarn validate:typescript",
@@ -64,25 +63,6 @@
     "fbemitter": "^2.1.1",
     "invariant": "^2.2.4",
     "use-subscription": "^1.0.0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "@react-native-community/bob": "^0.7.0",
-    "@react-native-community/eslint-config": "^0.0.5",
-    "@types/react-native": "^0.60.5",
-    "@typescript-eslint/eslint-plugin": "^1.7.0",
-    "@typescript-eslint/parser": "^1.7.0",
-    "eslint": "5.16.0",
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-plugin-prettier": "3.0.1",
-    "expo": "^34.0.4",
-    "metro-react-native-babel-preset": "^0.55.0",
-    "prettier": "^1.18.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-native": "~0.60.3",
-    "react-native-web": "^0.11.7",
-    "typescript": "^3.5.3"
   },
   "repository": {
     "type": "git",
