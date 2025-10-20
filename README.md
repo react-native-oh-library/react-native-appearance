@@ -1,6 +1,6 @@
 # @react-native-oh-tpl/react-native-appearance
 
-This project is based on [react-native-device-info](https://github.com/expo/react-native-appearance)
+This project is based on [react-native-appearance](https://github.com/expo/react-native-appearance)
 
 ## Documentation
 [中文](https://gitee.com/react-native-oh-library/usage-docs/blob/master/zh-cn/react-native-appearance.md)

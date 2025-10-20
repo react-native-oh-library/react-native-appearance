@@ -29,6 +29,10 @@
     "validate:typescript": "tsc --project ./ --noEmit",
     "validate:prettier": "prettier \"src/**/*.{js,ts,tsx}\" \"example/**/*.{js,ts,tsx}\" --check"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "jest": {
     "preset": "react-native",
     "testEnvironment": "node",
