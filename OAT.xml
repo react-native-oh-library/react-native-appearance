@@ -20,6 +20,18 @@
                 <filteritem type="filepath" name="*.ts" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filepath" name="index.*" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filepath" name="babel.config.js" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="lib/.*" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/NativeAppearance.web.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name=".watchmanconfig" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/index.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/mock.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/@types/use-subscription.d.ts" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="metro.config.js" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="lib/typescript/index.d.ts" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/web/.*" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="yarn.lock" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/Appearance.types.ts" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/NativeAppearance.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
             </filefilter>
             <filefilter name="defaultPolicyFilter" desc="Filters for compatibility，license header policies">
    	            <filteritem type="filename" name="LICENSE" desc="版权文件，不添加许可证头"/>
@@ -27,6 +39,18 @@
                 <filteritem type="filepath" name="*.ts" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filepath" name="index.*" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
                 <filteritem type="filepath" name="babel.config.js" desc="第三方开源软件源码，不修改版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="lib/.*" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/NativeAppearance.web.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name=".watchmanconfig" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/index.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/mock.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/@types/use-subscription.d.ts" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="metro.config.js" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="lib/typescript/index.d.ts" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/web/.*" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="yarn.lock" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/Appearance.types.ts" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
+                <filteritem type="filepath" name="src/NativeAppearance.tsx" desc="第三方开源软件源码，原本无版权头，以防有修改版权风险"/>
             </filefilter>
         </filefilterlist>
     </oatconfig>

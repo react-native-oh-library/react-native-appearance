@@ -24,7 +24,6 @@ export class AppearanceHarmony {
    * Set the color scheme preference. This is useful for overriding the default
    * color scheme preference for the app. Note that this will not change the
    * appearance of the system UI, only the appearance of the app.
-   * Only available on iOS 13+ and Android 10+.
    */
   static setColorScheme(scheme: ColorSchemeName | null | undefined): void {
     Appearance.setColorScheme(scheme);
