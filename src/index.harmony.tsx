@@ -3,9 +3,10 @@
  * Use of this source code is governed by a MIT license that can be
  * found in the LICENSE file.
 */
-  
-import { Appearance, ColorSchemeName, NativeEventSubscription } from 'react-native';
-import { AppearanceListener } from './Appearance.types';
+
+import { Appearance, ColorSchemeName, NativeEventSubscription, useColorScheme as rnUseColorScheme } from 'react-native';
+import { AppearanceListener, AppearancePreferences } from './Appearance.types';
+import { NativeAppearanceProvider } from './NativeAppearance';
 
 export class AppearanceHarmony {
   /**
@@ -29,6 +30,11 @@ export class AppearanceHarmony {
     Appearance.setColorScheme(scheme);
   }
 
+  static set(preferences: AppearancePreferences): void {
+    let color: ColorSchemeName = preferences.colorScheme;
+    Appearance.setColorScheme(color);
+  }
+
   /**
    * Add an event handler that is fired when appearance preferences change.
    */
@@ -37,10 +43,14 @@ export class AppearanceHarmony {
   }
 }
 
+export const AppearanceProvider = (props: { children: any }) => (
+  <NativeAppearanceProvider style={{ flex: 1 }} {...props} />
+);
+
 /**
  * A new useColorScheme hook is provided as the preferred way of accessing
  * the user's preferred color scheme (e.g. Dark Mode).
  */
 export function useColorScheme(): ColorSchemeName {
-  return useColorScheme();
+  return rnUseColorScheme();
 }

@@ -6,6 +6,7 @@ let FallbackAppearanceProvider = (props: any) => <View style={{ flex: 1 }} {...p
 // Native modules
 export const NativeAppearance = NativeModules.RNCAppearance;
 export const NativeAppearanceProvider =
-  Platform.OS === 'android'
+// @ts-ignore
+  Platform.OS === 'android' || Platform.OS === 'harmony'
     ? FallbackAppearanceProvider
     : requireNativeComponent('RNCAppearanceProvider');
